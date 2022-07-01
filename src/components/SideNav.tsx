@@ -40,7 +40,7 @@ const SideNav = () => {
       <ul>
         <SideNavLink to={"/"} title={"Homepage"} />
         {/* <SideNavLink to={"/chapter/1"} title={"Chapter 1"} /> */}
-        <SideNavLink to={"/chapter/2"} title={"Chapter 2"} />
+        <SideNavLink to={"/chapter/lists"} title={"Lists"} />
         {/* <SideNavLink to={"/chapter/3"} title={"Chapter 3"} />
         <SideNavLink to={"/chapter/4"} title={"Chapter 4"} /> */}
       </ul>
