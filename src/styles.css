@@ -1,0 +1,56 @@
+body {
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(2, 2, 3);
+  background: linear-gradient(
+    to right,
+    hsla(50, 94%, 56%, 0.3) -8%,
+    hsla(50, 94%, 56%, 0.15) 15%,
+    hsla(50, 94%, 56%, 0.05) 35%,
+    white 50%,
+    transparent
+  );
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+h1 {
+  font-size: 38px;
+  border-bottom: none;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+h2 {
+  border-bottom: 2px solid rgb(158, 158, 158);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  text-align: left;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  margin: 5vh 2vw;
+}

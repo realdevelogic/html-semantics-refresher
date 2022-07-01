@@ -1,2 +1,2 @@
-# html-semantics-refresher
+# html-semantics
 Created with CodeSandbox
